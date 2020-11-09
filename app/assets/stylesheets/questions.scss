@@ -8,17 +8,3 @@
    background: $gray; // Using this variable
    padding-bottom: 24px;
  }
-
-  .banner {
-   background: red;
-   h1 {
-     font-size: 50px;
-   }
- }
-
-  a {
-   color: grey;
-   &:hover {
-     color: black;
-   }
- }
