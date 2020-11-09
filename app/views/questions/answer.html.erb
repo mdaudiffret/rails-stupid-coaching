@@ -1,0 +1,19 @@
+<h1>Stupid Coaching</h1>
+
+<div class="alert alert-primary">
+  <p class="font-weight-bold">
+    "<%= @question %>"
+  </p>
+  <p>-You</p>
+</div>
+
+<div class="alert alert-secondary">
+  <p class="font-weight-bold">
+  "<%= @answer %>"
+  </p>
+  <p>-Your coach</p>
+</div>
+
+<button type="button" class="btn btn-light">
+  <%= link_to "ask another question", ask_path %>
+</button>
